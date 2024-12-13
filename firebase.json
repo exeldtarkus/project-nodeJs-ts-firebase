@@ -1,0 +1,26 @@
+{
+  "emulators": {
+    "firestore": {
+      "host": "127.0.0.1",
+      "port": 8082
+    },
+    "database": {
+      "host": "127.0.0.1",
+      "port": 9001
+    },
+    "pubsub": {
+      "host": "127.0.0.1",
+      "port": 8086
+    },
+    "functions": {
+      "port": 5001
+    },
+    "auth": {
+      "port": 9099
+    },
+    "ui": {
+      "enabled": true,
+      "port": 4000
+    }
+  }
+}

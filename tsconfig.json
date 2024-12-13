@@ -1,0 +1,20 @@
+{
+  "extends": "./node_modules/gts/tsconfig-google.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "build",
+    "esModuleInterop": true,
+    "strict": true, // Enable strict type-checking
+    "lib": [
+      "es2020", // Modern JavaScript features
+      "dom" // Required if working with the browser DOM
+    ],
+    "resolveJsonModule": true, // Enable importing JSON files
+    "skipLibCheck": true, // Optional: Skip type checking of declaration files for faster builds
+    "types": ["node"] // Include Node.js types
+  },
+  "include": [
+    "src/**/*.ts",
+    "test/**/*.ts"
+  ]
+}
